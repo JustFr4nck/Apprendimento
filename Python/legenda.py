@@ -35,3 +35,9 @@
 # [variabile.upper()] rende una stringa tutta maiuscola
 # [variabile.lower()] rende una stringa tutta minuscola
 # [variabile.isdigit()] restituisce [True] se la stringa è composta SOLO da numeri, altrimenti restituisce [False]
+# [variabile.isalpha()] restituisce [True] se la stringa è composta SOLO da lettere, altrimenti restituisce [False] (se ci sono spazi restituisce [False])
+# [variabile.count("carattere")] conta quanti caratteri del tipo specificato sono presenti nella stringa della variabile (Restituisce Integer)
+# [variabile.replace("carattere da sostituire", "carattere che prenderà il suo posto")] con questa funzione vengono sostituiti tutti i caratteri specificati con un altro carattere specificato
+# 
+
+ 
