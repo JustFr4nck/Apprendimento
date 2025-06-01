@@ -1,5 +1,6 @@
 
 #___BASI___
+#[help(strumento)] serve per vedere tutte le funzioni e i metodi di ciò che viene messo fra parentesi
 # [print] per stampare
 # [print(f"hello {x}")] la f permette di mettre fra 2 {} una variabile da stampare
 # per dichiarare una variabile non serve mettere il tipo di variabile che vai a realizzare basta fare variabile = contenuto(String, Float, Integer, Boolean)
@@ -38,6 +39,11 @@
 # [variabile.isalpha()] restituisce [True] se la stringa è composta SOLO da lettere, altrimenti restituisce [False] (se ci sono spazi restituisce [False])
 # [variabile.count("carattere")] conta quanti caratteri del tipo specificato sono presenti nella stringa della variabile (Restituisce Integer)
 # [variabile.replace("carattere da sostituire", "carattere che prenderà il suo posto")] con questa funzione vengono sostituiti tutti i caratteri specificati con un altro carattere specificato
-# 
+
+#___Indexing___
+#[Stringa[posizione]] resituisce il carattere nella posizione fra parentesi
+#[Stringa[start : end]] restituisce i caratteri fra la posizione [start] e la posizione [end]
+#[Stringa[start : end : step]] restituisce i caratteri ogni valore dello [step]
+
 
  
