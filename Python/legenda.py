@@ -45,5 +45,19 @@
 #[Stringa[start : end]] restituisce i caratteri fra la posizione [start] e la posizione [end]
 #[Stringa[start : end : step]] restituisce i caratteri ogni valore dello [step]
 
+#___Format Specifiers___
+#[print(f"text {variabile :.nf}")] n equivale alla quantità di numeri dopo la virgola da stampare
+#[print(f"text {variabile :n}")] n equivale alla quantità di spazi occupati dal  valore stampato (In caso di un numero superiore al numero di cifre del valore vengono aggiunti degli spazi vuoti)
+#[print(f"text {variabile :0n}")] n equivale alla quantità di spazi occupati dal  valore stampato (In caso di un numero superiore al numero di cifre del valore vengono aggiunti degli zeri)
+#[print(f"text {variabile :>n}")] n equivale alla quantità di spazi occupati dal  valore stampato ed il simbolo giustifica il testo verso destra
+#[print(f"text {variabile :<n}")] n equivale alla quantità di spazi occupati dal  valore stampato ed il simbolo giustifica il testo verso sinistra
+#[print(f"text {variabile :^n}")] n equivale alla quantità di spazi occupati dal  valore stampato ed il simbolo giustifica il testo al centro
 
+
+#___loop___
+#while loop
+#for in loop
+
+#___import time___
+# Serve per i metodi per creare timer  
  
